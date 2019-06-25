@@ -28,6 +28,8 @@ const without = function(source, itemsToRemove) {
   return output;
 };
 
+module.exports = [assertArraysEqual, without];
+
 
 //console.log([9, 1] + [1]);
 console.log(without([1, 2, 3], [1])); // => [2, 3]
