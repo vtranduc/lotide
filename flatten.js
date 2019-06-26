@@ -8,4 +8,4 @@ const flatten = function(source) {
   return output;
 };
 
-//console.log(flatten([[1,100], 2, [3, 4], 5, [6,0],99])) // => [1, 2, 3, 4, 5, 6]
+console.log(flatten([[1,100], 2, [3, 4], 5, [6,0],99])) // => [1, 2, 3, 4, 5, 6]
