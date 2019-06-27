@@ -12,9 +12,6 @@ const findKey = function(obj, callback) {
     if (callback(obj[key])) {
       return key;
     }
-    
-    
-    
   }
   return undefined;
 };
