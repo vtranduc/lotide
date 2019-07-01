@@ -28,7 +28,7 @@ const without = function(source, itemsToRemove) {
   return output;
 };
 
-module.exports = [assertArraysEqual, without];
+module.exports = without;
 
 
 //console.log([9, 1] + [1]);

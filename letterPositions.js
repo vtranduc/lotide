@@ -18,4 +18,6 @@ const letterPositions = function(str) {
   return results;
 };
 
-console.log(letterPositions('love live'));
+//console.log(letterPositions('love live'));
+
+module.exports = letterPositions;
