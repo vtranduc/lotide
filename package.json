@@ -1,6 +1,6 @@
 {
   "name": "@vtranduc/lotide",
-  "version": "1.0.1",
+  "version": "1.0.2",
   "description": "This is my lotide project",
   "main": "assertArraysEqual.js",
   "directories": {
