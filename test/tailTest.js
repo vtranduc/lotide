@@ -1,3 +1,4 @@
+/*
 const assertEqual = require('../assertEqual');
 const tail = require('../tail');
 
@@ -13,3 +14,17 @@ assertEqual(result[2], 4);
 const sameArrCheck = [1,2,3,4,5];
 tail(sameArrCheck);
 assertEqual(sameArrCheck.length, 5);
+*/
+
+
+const assert = require('chai').assert;
+
+const tail = require('../tail');
+
+describe('#tail', () => {
+  
+  it("returns [2, 3, 4] for [1, 2, 3, 4]", () => {
+    assert.deepEqual(tail([1,2,3,4]), [2, 3, 4]);
+  });
+  
+});
