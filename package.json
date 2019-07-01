@@ -1,7 +1,7 @@
 {
-  "name": "lotide",
-  "version": "1.0.0",
-  "description": "",
+  "name": "@vtranduc/lotide",
+  "version": "1.0.1",
+  "description": "This is my lotide project",
   "main": "assertArraysEqual.js",
   "directories": {
     "test": "test"
@@ -13,7 +13,7 @@
     "type": "git",
     "url": "git+https://github.com/vtranduc/lotide.git"
   },
-  "author": "",
+  "author": "Viet-Nhien Tran Duc",
   "license": "ISC",
   "bugs": {
     "url": "https://github.com/vtranduc/lotide/issues"
